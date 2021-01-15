@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Views.Mod_A">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="147" y="20" width="532" height="695"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4c7e4" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2c568" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none">
+              <font/>
+              <title-color color="-16777216"/>
+            </border>
+            <children>
+              <component id="f513e" class="javax.swing.JTextField" binding="txtORCID">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="12"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="af6b3" class="javax.swing.JTextField" binding="txtNom">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="12"/>
+                </constraints>
+                <properties>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="98a89" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Numéro ORCID"/>
+                </properties>
+              </component>
+              <component id="cb1ba" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Prénom"/>
+                </properties>
+              </component>
+              <component id="1e687" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="6badd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Nom"/>
+                </properties>
+              </component>
+              <component id="9ce08" class="javax.swing.JTextField" binding="txtNSS">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="12"/>
+                </constraints>
+                <properties>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="f6074" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Numéro de sécurité social"/>
+                </properties>
+              </component>
+              <component id="1b60a" class="javax.swing.JButton" binding="Modier_button">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="65" ipady="15"/>
+                </constraints>
+                <properties>
+                  <background color="-2605281"/>
+                  <borderPainted value="false"/>
+                  <enabled value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="SF Pro Display" size="22" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="Modifer"/>
+                </properties>
+              </component>
+              <component id="2b114" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="7c0b2" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="d88e2" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="28526" class="javax.swing.JTextField" binding="txtPRENOM">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="12"/>
+                </constraints>
+                <properties>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="6dca8" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="40"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="628b2" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="6f85a" class="javax.swing.JTextField" binding="txt_datedec">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="170" ipady="12"/>
+                </constraints>
+                <properties>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="68456" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Date de décès"/>
+                </properties>
+              </component>
+              <component id="22219" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="388a7" class="javax.swing.JTextField" binding="Txt_date_nai">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="12"/>
+                </constraints>
+                <properties>
+                  <font name="Ubuntu Medium" size="16" style="0"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="bbe23" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="16" style="0"/>
+                  <labelFor value="a0326"/>
+                  <text value="Date de naissance"/>
+                </properties>
+              </component>
+              <component id="d9322" class="javax.swing.JButton" binding="dateDecBNT">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <actionCommand value=""/>
+                  <background color="-1"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <defaultCapable value="true"/>
+                  <focusPainted value="false"/>
+                  <focusable value="true"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="10"/>
+                  <icon value="Views/Images/calendar_104605 (1).png"/>
+                  <opaque value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="77002" class="javax.swing.JButton" binding="bnt_date_nai">
+                <constraints>
+                  <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <actionCommand value=""/>
+                  <background color="-1"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <defaultCapable value="true"/>
+                  <focusPainted value="false"/>
+                  <focusable value="true"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="10"/>
+                  <icon value="Views/Images/calendar_104605 (1).png"/>
+                  <opaque value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="45770" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2605281"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dcd38" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SF Pro Display" size="24" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="Modifier l' Auteur"/>
+                </properties>
+              </component>
+              <component id="d00c0" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-2605281"/>
+                </properties>
+              </component>
+              <vspacer id="549f4">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
